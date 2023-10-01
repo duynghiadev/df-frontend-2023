@@ -1,8 +1,17 @@
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { far } from '@fortawesome/free-regular-svg-icons'
+import { fas } from '@fortawesome/free-solid-svg-icons'
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import './index.css'
+import { Toaster } from 'sonner'
 import App from './App'
 import reportWebVitals from './reportWebVitals'
+
+import './assets/styles/dialog.css'
+import './assets/styles/index.css'
+import './assets/styles/reset.css'
+
+library.add(fas, far)
 
 const rootElement = document.getElementById('root')
 
@@ -10,6 +19,7 @@ if (rootElement) {
   const root = ReactDOM.createRoot(rootElement)
   root.render(
     <React.StrictMode>
+      <Toaster position="top-right" />
       <App />
     </React.StrictMode>,
   )
