@@ -10,11 +10,11 @@ export interface PaginationProps {
 }
 
 const Pagination = ({
-  totalItems,
-  itemsPerPage,
-  currentPage: externalCurrentPage,
-  onPageChange,
-}) => {
+                      totalItems,
+                      itemsPerPage,
+                      currentPage: externalCurrentPage,
+                      onPageChange,
+                    }) => {
   const [currentPage, setCurrentPage] = useState(0)
 
   const totalPages = Math.ceil(totalItems / itemsPerPage)
@@ -35,13 +35,13 @@ const Pagination = ({
       forcePage={currentPage - 1}
       pageCount={totalPages}
       onPageChange={handlePageClick}
-      previousLabel="←"
-      nextLabel="→"
-      containerClassName="pagination"
-      previousLinkClassName="pagination__link"
-      nextLinkClassName="pagination__link"
-      disabledClassName="pagination__link--disabled"
-      activeClassName="pagination__link--active"
+      previousLabel='←'
+      nextLabel='→'
+      containerClassName='pagination'
+      previousLinkClassName='pagination__link'
+      nextLinkClassName='pagination__link'
+      disabledClassName='pagination__link--disabled'
+      activeClassName='pagination__link--active'
     />
   )
 }

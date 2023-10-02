@@ -10,7 +10,7 @@ function SelectField({ options, name, label, ...rest }: SelectFieldProps) {
   return (
     <>
       <label htmlFor={name}>{label}</label>
-      <select className="input-field" id={name} name={name} {...rest}>
+      <select className='input-field' id={name} name={name} {...rest}>
         {options.map((option) => (
           <option key={option} value={option}>
             {option}
