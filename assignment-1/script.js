@@ -148,7 +148,7 @@ function App() {
             <td>${data.name}</td>
             <td>${data.author}</td>
             <td>${data.topic}</td>
-            <td class="btn_removebook" data-id-book=${index}> <button style="background-color: #d3455a; color: white; border: none; border-radius: 4px; padding: 5px 10px; font-size: 16px; cursor: pointer; transition: background-color 0.3s ease;" onmouseover="this.style.backgroundColor='#e2586d'" onmouseout="this.style.backgroundColor='#d3455a'">Delete</button> </td>
+            <td class="btn_removebook" data-id-book=${index}><button style="background-color: #d3455a; color: white; border: none; border-radius: 4px; padding: 5px 10px; font-size: 16px; cursor: pointer; transition: background-color 0.3s ease;" onmouseover="this.style.backgroundColor='#e2586d'" onmouseout="this.style.backgroundColor='#d3455a'">Delete</button> </td>
             </tr>
             `;
     });
