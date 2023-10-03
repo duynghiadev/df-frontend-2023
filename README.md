@@ -7,14 +7,14 @@ frontend development organized by [Dwarves Foundation](https://d.foundation/).
 ## Get Started
 
 1. **Fork the Repository:** If you're a part of this class,
-   kindly [fork](https://docs.github.com/en/get-started/quickstart/fork-a-repo#forking-a-repository)
-   this repository.
+	 kindly [fork](https://docs.github.com/en/get-started/quickstart/fork-a-repo#forking-a-repository)
+	 this repository.
 2. **Set Your Fork to Public:** This helps us in evaluating and collaborating on
-   your assignments.
+	 your assignments.
 3. **Syncing and Updates:** After every session, we will push relevant
-   assignments here. Ensure
-   you [sync your forked repository](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/syncing-a-fork)
-   to pull the exercise templates.
+	 assignments here. Ensure
+	 you [sync your forked repository](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/syncing-a-fork)
+	 to pull the exercise templates.
 
 ## Assignments Schedule
 
@@ -43,23 +43,23 @@ the `Features` sub-section and check the `Issues` box.
 Once enabled, follow these steps for each submission:
 
 1. **Code Submission**: Place your submitted code in the
-   respective `/assignment-[number]` folder on your fork.
+	 respective `/assignment-[number]` folder on your fork.
 2. **Deployment**: Deploy your project on a cloud service to generate a public
-   preview link.
+	 preview link.
 3. **Issue Creation**: Open an issue in your forked repository with the
-   title `Submission for assignment [number]`. Ensure you include the public
-   preview link in the issue description. Refer
-   to [this example issue](https://github.com/zlatanpham/df-frontend-2023/issues/1)
-   for guidance.
+	 title `Submission for assignment [number]`. Ensure you include the public
+	 preview link in the issue description. Refer
+	 to [this example issue](https://github.com/zlatanpham/df-frontend-2023/issues/1)
+	 for guidance.
 
 ## Evaluation Criteria
 
 We evaluate assignments based on the following criteria:
 
 - **Timeliness**: The assignment must be submitted by the deadline (based on the
-  time of the last commit in the assignment folder).
+	time of the last commit in the assignment folder).
 - **Requirements Fulfillment**: The assignment must fulfill all mandatory
-  requirements.
+	requirements.
 
 Our team will carefully assess your submissions. After evaluation, we'll share
 the results and offer feedback on the corresponding open issue.
