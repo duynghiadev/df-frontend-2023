@@ -25,7 +25,7 @@ frontend development organized by [Dwarves Foundation](https://d.foundation/).
 | 3   | [Tooling: Webpack, Babel, TypeScript, ESLint & Prettier](./assignment-3/) | 01/10/2023 |
 | 4   | [NextJS & TailwindCSS](./assignment-4/)                                   | 06/10/2023 |
 | 5   | [Form handling](./assignment-5/)                                          | 08/10/2023 |
-| 6   | Authentication & API Integration                                          |            |
+| 6   | [Authentication & API Integration](./assignment-6/)                       | 13/10/2023 |
 | 7   | Type-safe client server                                                   |            |
 | 8   | Modern workflow & Deployment                                              |            |
 
