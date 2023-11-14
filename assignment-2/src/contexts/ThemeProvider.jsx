@@ -57,8 +57,7 @@ export const ThemeProvider = ({ children }) => {
     [colorMode],
   )
 
-  return <ThemeContext.Provider
-    value={contextValue}>{children}</ThemeContext.Provider>
+  return <ThemeContext.Provider value={contextValue}>{children}</ThemeContext.Provider>
 }
 
 export default ThemeProvider
